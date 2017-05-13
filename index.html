@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Community Of Coders</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- gallery -->
+<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+<!-- //gallery -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<!-- font -->
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+</head>
+<body>
+	<!-- banner -->
+	<div class="jarallax banner" id="home">
+		<div class="wthree-different-dot">
+		<br>
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<nav class="navbar navbar-default navbar-fixed-top">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+							<div class="w3layouts-logo">
+								<h1><a href="index.html"><img src="images/logo with name.png" id = "logo"  class="img-responsive" alt="Responsive image"></a></h1>
+							</div>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<nav>
+								<ul class="nav navbar-nav">
+									<li><a href="#home" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Home</a></li>
+									<li><a href="#about" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">About</a></li>
+									<li><a href="#services" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Activities</a></li>
+									<li><a href="#gallery" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Glimpses</a></li>
+									<li><a href="#team" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Team</a></li>
+									<li><a href="#mail" class="scroll" data-toggle="collapse" data-target=".navbar-collapse">Contact Us</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- /.navbar-collapse -->
+					</nav>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-top">
+				<div class="container">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>	
+									<div class="banner_text">
+										<h3>Imagine</h3>
+										<p>You can't do it unless have the ability to imagine it.</p>
+									</div>
+								</li>
+								<li>
+									<div class="banner_text">
+										<h3>Believe</h3>
+										<p>In order to succeed, we must first believe that we can.</p>
+									</div>
+								</li>
+								<li>	
+									<div class="banner_text">
+										<h3>Achieve</h3>
+										<p>Whatever the mind can imagine and believe, it can achieve.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider4").responsiveSlides({
+								auto: true,
+								pager:true,
+								nav:true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						 </script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about">
+		<br>
+		<br>
+		<div class="container">
+			<div class="w3-agileits-about-grids">
+				<div>
+					<div class="w3-agile-heading">
+						<h3>About Us</h3>
+					</div>
+					<br>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum					
+					</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- banner-bottom -->
+		<div id="services" class="banner-bottom services">
+			<br>
+			<br>
+			<div class="container">
+				<div class="w3-agile-heading">
+					<h3>Activities</h3>
+				</div>
+				<br><br>
+				<div class="banner-bottom-grids">
+					<div class="col-md-4 banner-bottom-grid">
+						<div class="banner-bottom-grid-rel">
+							<div class="banner-bottom-grid-rel-pos">
+								<img class='img-responsive' src="images/icon1.png" id='icon'/>
+								<h3 align='center'> C Workshop </h3>
+								<p> Unable to debug that code? Some question giving you sleepless nights? Ask! And get a variety of answers! </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 banner-bottom-grid">
+						<div class="banner-bottom-grid-rel">
+							<div class="banner-bottom-grid-rel-pos">
+								<img class='img-responsive' src="images/icon2.png" id='icon'/>
+								<h3 align='center'> Java Lectures </h3>
+								<p> Have an interesting coding experience? Have some tips which others could benefit from? Well, enter the community! </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 banner-bottom-grid">
+						<div class="banner-bottom-grid-rel">
+								<div class="banner-bottom-grid-rel-pos">
+								<img class='img-responsive' src="images/icon3.png" align='center' id='icon'/>
+								<h3 align='center'> Python Workshop </h3>
+								<p> Have a project idea? Want the best possible team? Or maybe join such a team? Sign Up Now!</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<br><br><br>
+					<div class="col-md-4 banner-bottom-grid">
+						<div class="banner-bottom-grid-rel">
+							<div class="banner-bottom-grid-rel-pos">
+								<img class='img-responsive' src="images/icon1.png" id='icon'/>
+								<h3 align='center'> Inheritance </h3>
+								<p> Unable to debug that code? Some question giving you sleepless nights? Ask! And get a variety of answers! </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 banner-bottom-grid">
+						<div class="banner-bottom-grid-rel">
+							<div class="banner-bottom-grid-rel-pos">
+								<img class='img-responsive' src="images/icon2.png" id='icon'/>
+								<h3 align='center'> Game Development </h3>
+								<p> Have an interesting coding experience? Have some tips which others could benefit from? Well, enter the community! </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 banner-bottom-grid">
+						<div class="banner-bottom-grid-rel">
+								<div class="banner-bottom-grid-rel-pos">
+								<img class='img-responsive' src="images/icon3.png" align='center' id='icon'/>
+								<h3 align='center'> Data Structures </h3>
+								<p> Have a project idea? Want the best possible team? Or maybe join such a team? Sign Up Now!</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+			</div>
+		<div id="fakeTeam"> </div>
+		</div>
+	<!-- services -->
+
+	<!-- services  alternate 
+
+	<div class="services" id="services">
+		<br>
+		<br>
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>Activities (Alternate)</h3>
+			</div>
+			<div class="w3ls-services-grids">
+				<div class="col-md-3 w3ls-services-left">
+					<div class="w3ls-services-left-top">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<h5>C Workshop</h5>
+						<p>An introduction to programming through C. Our first workshop for students of FY.</p>
+					</div>
+					<div class="w3ls-services-left-top w3ls-services-left-top1">
+						<i class="fa fa-asterisk" aria-hidden="true"></i>
+						<h5>Python Workshop</h5>
+						<p>Learn the hottest programming language in just a single day!</p>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls-services-middle">
+					<div class="w3ls-services-middle-img">
+						<img src="images/7.jpg" alt="" />
+					</div>
+					<div class="w3ls-services-middle-grids">
+						<div class="col-md-6 w3ls-services-middle-left">
+							<div class="w3ls-services-left-top">
+								<i class="fa fa-bell" aria-hidden="true"></i>
+								<h5>Game Development</h5>
+								<p>The basics of game development in C++ where we teach how to build a console game.</p>
+							</div>
+						</div>
+						<div class="col-md-6 w3ls-services-middle-left">
+							<div class="w3ls-services-left-top">
+								<i class="fa fa-heart" aria-hidden="true"></i>
+								<h5>Data Structures Series</h5>
+								<p>Come and learn the more important computer subject, Data Structures!</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-3 w3ls-services-left">
+					<div class="w3ls-services-left-top">
+						<i class="fa fa-eye" aria-hidden="true"></i>
+						<h5>Inheritance</h5>
+						<p>A summer mentorship programme where seniors help you make the software of your dream!</p>
+					</div>
+					<div class="w3ls-services-left-top w3ls-services-left-top1">
+						<i class="fa fa-anchor" aria-hidden="true"></i>
+						<h5>Core Java Lectures</h5>
+						<p>A series of lectures where basics of Java is covered.</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	 //services alternate -->
+
+	<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<br>
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>Glimpses</h3>
+			</div>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/2.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/2.jpg" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/3.jpg" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/4.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/4.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/5.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/5.jpg" alt=" " class="img-responsive" />
+										</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/6.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/6.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/7.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/7.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/8.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/8.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/9.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/9.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/2.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/2.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/3.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/4.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/4.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/5.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/5.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/6.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/6.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/7.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/7.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/8.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/8.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/9.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/9.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/2.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/2.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/3.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<script src="js/jquery.tools.min.js"></script>
+			<script src="js/jquery.mobile.custom.min.js"></script>
+			<script src="js/jquery.cm-overlay.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('.cm-overlay').cmOverlay();
+				});
+			</script>
+		</div>
+	</div>
+	<!-- //gallery -->
+	<!-- team -->
+	<div class="jarallax team" id="team">
+		<div class="team-dot">
+		<br>
+			<div class="container">
+				<div class="w3-agile-heading team-heading">
+					<h3>Our Team</h3>
+				</div>
+				<div class="agileits-team-grids">
+					<div class="col-md-4 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/team/t1.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Deep Kawa</h4>
+								<p>General Secretary</p>
+								<p>+91 9876 543 210</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/team/t2.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Sunaina Punyani</h4>
+								<p>General Secretary</p>
+								<p>+91 9876 543 210</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/team/t3.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Keivan Shah</h4>
+								<p>General Secretary</p>
+								<p>+91 9876 543 210</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="agileits-team-grids">
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t2.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Johan Botha</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t3.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Justo Congue</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t4.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Steven Wilson</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t4.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Steven Wilson</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="agileits-team-grids">
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t2.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Johan Botha</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t3.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Justo Congue</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t4.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Steven Wilson</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t4.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>Steven Wilson</h4>
+								<p>Fusce laoreet</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- contact -->
+	<div class="contact" id="mail">
+		<br>
+		<br>
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>Contact Us</h3>
+			</div>
+			<div class="w3layouts-contact-grids">
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-map" aria-hidden="true"></i>
+					<h5>Address</h5>
+					<p>VJTI, H R Mahajani Marg, Matunga, Mumbai, Maharashtra 400031</p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<h5>Phone/Fax</h5>
+					<p>+91 9870 320 140</p>
+					<p>+91 9029 925 535</p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<h5>Email</h5>
+					<p><a href="mailto:communityofcoders@gmail.com"> communityofcoders@gmail.com</a></p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<h5>Facebook</h5>
+					<p><a href="https://www.facebook.com/CommunityOfCoders">Like our page</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="copyright">
+				<p>© 2017 Community Of Coders. All rights reserved | Design inspiration from <a href="http://w3layouts.com">W3layouts</a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+			/* init Jarallax */
+			$('.jarallax').jarallax({
+				speed: 0.5,
+				imgWidth: 1366,
+				imgHeight: 768
+			})
+		</script>
+</body>	
+</html>

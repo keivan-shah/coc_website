@@ -1,2 +1,2 @@
-# coc_website
-Website for the Community Of Coders (COC), VJTI.
+# COC Website
+Website for the Community Of Coders(COC), VJTI.
